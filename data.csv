@@ -1,0 +1,93 @@
+Is any resource that shows clearer the conversion and the format of the input reviews?,"I subscribed because I like the content, but i think these videos are more for people who have an intermediate level understanding of python. I can follow the conceptual bits, but as soon as you start programming it with python, you explain your steps but only on a very high level.
+Could you recommend a place where I can learn programming ML by building on the fundamental concepts?
+
+btw nice rap ;p","What text editor are you using, Siraj?","python version-3.6.1 ,Anaconda-4.4.0  code for this version of this tutorial-------
+https://github.com/ankitAMD/Ankit_Siraj5_Sentiment_Analysis/blob/master/siraj_tut-5_sentiment_analysis.ipynb
+
+https://github.com/ankitAMD/Ankit_Siraj5_Sentiment_Analysis","lol, as an german i never used waldeinsamkeit :P i'v only used einsamkeit, without wald","Just curious, how long did it take y'all to train the neural net that siraj wrote. I ran mine on a gtx 1080 Ti and it took 26 seconds per epoch.","Hi Siraj, 
+
+I think your videos are great but I spotted a small mistake in this one. In the last part you call validation set like this:
+'validation_set(textX, textY)' 
+
+Unfortunately this doesn't work. I did some research and learned that you may need to call it like this:
+
+'validation_set=(textX,testY)'. 
+
+Not sure if this a versioning problem. 
+
+The other thing is... you go so fast but you don't actually show how to run this or how to actually use it. You quickly move on the AWS but there's no explanation of how I'm supposed to use. How do I supply new text to it? How can I get a prediction out? 
+
+I'd really appreciate some help with this because I'm trying to apply this to real world problems but I can't get an example running at the moment.  :( 
+
+Thank you for all of the information you have provided though. 
+
+Kiran","Hi.  Love your videos and humor.  Curiously, once training is complete, how do you feed a movie review into the model or access the model? (i.e. Where is model saved at the completion of training?)","Awesome videso. with a lot of replaying, and background research im almost following... However, whats in the imdb database? what are the labels? single words? what o they spell out? 
+
+and the storage format of the descriptions... is it a matrix, with each location having an index to a word? where are the words? 
+
+ive read somewhere something about only frequency of words being stored? there are a lot of unknowns for an AI pleb such as myself...","Hey Siraj, I am getting an error ""list index out of range"" for the last statement. I tried your code as well just in case I made a typo but I am still getting the same error. 
+Thanks for all the videos.",what is the current state of art in sentiment analysis?,"Infact here(RNN) the input is fixed size (thats why we are doing padding), isn't it?",Can i download code somewhere?,Hey can you provide the link that explains why you choose that NNet architecture ?,"Wow I am really impressed, this is the most catchy, informative and just awesome course I have ever seen. Thank you so much!!","For those struggling to understand the data on printing it :
+""The words have been replaced by integers that indicate the absolute popularity of the word in the dataset. The sentences in each review are therefore comprised of a sequence of integers""
+
+source : http://machinelearningmastery.com/predict-sentiment-movie-reviews-using-deep-learning/",name validation_set is undefined......,"Once you have this neural net trained, can it be optimized to run locally, or does it have to be run as is every time?  BTW, thanks for the great videos!!","Siraj, how do i apply this on image recognition and show the results? I got very interested  on this. Thanks a lot","Теперь я знаю, что случилось с Рилигетард, ха-ха. Забавно, но понятно, зачем менять. Сегодня было бы трудно быть общественным деятелем и выражать такие взгляды.","I'm rewatching this again for my project. Haha. Learned a lot in less than 10 minutes. Thank you very much! Ur the best Siraj!
+
+Btw, I'm wondering what accuracy score did you get from training on imdb dataset. Thanks. :)","Great channel, glad I found it. subbed!",Great videos. Summarized 2 chapters of a book. Thank you very much.,How do you input new text once the training is complete? If you run the script without a notebook that is.,3:24 hehe testY,"Siraj your videos are great man, however I never see any outputs/results after you run the program, why is that?","thank you 
+
+but can you accept my invitation in google thanks and answer to my mail","The price of giving a lot of information, fast, with some cool stuff embedded, is that you are not really teaching but just showing how smart you are. I still find everything you bring valuable and plan to fight with it (and learn eventually). I do realize that you know what you're doing and invest a lot in the material. Thanks. Please consider slowing down and really teaching.","I didn't understand anything, but challenge accepted!","mono no aware is some advanced stuff. 
+
+In the Buddhist Vipassana tradition which I've followed, there are 16 stages or knowledges known as nyanas. Mono no aware may be the feeling experienced after the Arising and Passing stage in the Dissolution Nyana (known as Bhanga Nyana in Pali). Some authors have equated it to the Dark night of the soul in the Christian tradition.
+
+Are you into meditation, Siraj?","Hi Siraj! You have created great videos on sentiment analysis..do you have a video for beginner? I mean very start from scratch, for example what software, materials/data, and skills we need? I have IT background but not strong in programming","I dont get it, the code trains a network from a datase, and there is nothing inthe code to check the data with new phrases ... how does one check new data inputs to see if the training worked ? wtf ?","you just copied tflearn tutorial that does not explain anything, to make a super fast (better than nothing) explanation, but yet tons of questions remain...also tflearn is certainly not the first step I would recommend, first learn tensorflow, then tflearn","wish someone would remake these deep learning videos but instead go over the conceptual side of it without the annoying fucking quick cuts. They're not funny when you're attempting to understand this, its distracting. It's also fairly obvious by looking at the code that there are VERY import pieces of information that have been intentionally left out for some inexplicable reason.",The Jurassic Park scene cracked me up so hard. Great Teaching methods,The dataset of imdb has not been available to download. Any solution?,"How do you test the trained model? I tried 
+model.load('model.tfl')
+new_sentence = 'The movie was terrible!'
+testdata = pad_sequences(new_sentence, maxlen=100, value=0.)
+prob = model.predict(testdata)
+print(prob)","Very nice video, You just rocking Siraj.....","Hey siraj ! I am from New Delhi , India. I have been following your channel recently and I find  it very interesting . I am a student of computer science and I plan on doing a college project on sentiment analysis , I tried naive bayes using NLTK but it doesnt seem to be so accurate. Your videos have encouraged me to try this using deep learning (Tensorflow). My main area of confusion include what specific reviews should I take up and how to go about with using tensorflow. I know you'd be getting this daily but please If you could guide me with this , it would be a great help.",OMG.. !! This video is a bomb for me as im doing my final year project on Sentiment Analysis..,I am still waiting for noob to pro series in machine learning,Can anyone specify the steps to do this on Azure instead of AWS?,"I love your videos, I wish they are a little longer to set a better pace. Also I saw your previous video and implemented that textblob polarity thing. It seemed to be not giving right predictions, anyways I want to know that how by default textblob is trained? As i did not train it. And is there any way we implement this one outside of aws and such thing? I know it is a dependency thing but can not we install it directly to our PC. I would be in debt if you answer all my queries.","""I'm using the smallest because I'm still poor""","Great flames in the rap :) 
+Always good to see you adding a new dimension to machine learning... thanks for making ML so much fun","I can't figure out, how many epochs do you use?","Hi, Siraj! First of all - thank for your videos!
+Can you explain, why you use LSTM for classification of text, represented by same size vectors? As I understand, LSTM need use if text send to input neural net word by word. But in that example text send to neural net entirely.","Siraj, you have an input with 100 values where 0 is empty and other values is a index representation of some word, right? Then you use embedding with a output dimention of 128. I didn't understand the structure of the DNN. Please, tell me if I'm right or not. 
+
+Each value of the input will generate a vector of 128? If this is true, you will have a 12800 input vector to the LSTM. I know that I'm wrong, but can you explain how exactly the input will pass in the DNN?",How should one interpret the trainX vector? What do the numbers mean? Is it a bag of words representation/tokenized representation?,It would be great if we could see how you used the model later,Please suggest me some research problems on sentiment analysis,"@  5:47 why did you choose 128 as output_dim for the embedding layer?  
+Also in the fully connected layer do you use 2 units because there are only 2 possible output values: Positive or Negative?
+thanks!",This chanel is awesome!!! your explication to descent of gradient is so fast and accurate hahaha XD,"hi siraj , great video! but i wonder, is there any tutorial to show how to make a ""raw word"" as an input for a prediction? thank you so much","This is a super awesome video and I really appreciate your explanations for each part of your code. In the future could you set it up in such a way that windows plubs like me might be able to us your code? I've been working for the last hour if not longer to get TensorFlow, and as a side effect tflearn, to work on my machine with little to no success. Thanks for all of the work you do, and for those fat beats you keep dropping! Keep up the good work!","What do you mean by using only 10% of the data for validation. How does our model knows which 10 percent of the words to pick up and does increasing the percentage of validation set improves our output results. Moreover how does our model knows which words to use for training set and for testing set. Are these things already defined in Tensorflow ?
+
+Sorry I'm completely new to this deep learning field.","Siraj please make an mp3 recording about deep learning plz..
+Album Name: Siraj Goes Deeper,
+Track 1:  It's all about perception -> Perceptron
+Track 2: Turn me on baby -> Activation Functions
+Track 3: Get it to the next Level -> MLP
+Track 4: What goes around come around -> Recurrent NN
+.
+.
+.
+.
+.
+:D
+Love you man, and I love this nanodegree",Thanks for your great videos man!!,"Lil Wayne's deposition video, nice. Great videos Siraj!",you watched school of life video? great video mate,okay depoc. maybe a little less handwaving and a little more math?,"Siraj, why did you use a softmax function instead of ReLu?",Here is my submission https://github.com/w4zir/Game-Ratings-Predicition,Code challenge submission: https://github.com/igorbpf/Sentiment-Analysis-IGN-data,"Hey Siraj, look at my submission:
+https://github.com/AlfredNeverKog/IGN-Game-Rating-Prediction
+Thanks!",here is my challenge code: https://github.com/benjaco/siraj-deeplearning-challenges/tree/master/3_game_title_nn,"if you are trying to install tf learn on windows 10, then i have some advise for you, after a couple of houres spend on installing it
+
+install tensorflow, then install it from there git repo (pip install git+https://github.com/tflearn/tflearn.git) because only the latest dev version will run on windows, they have partial removed the dependency Curses 
+
+and when i ran it from a jupyter notebook, it could not find tflearn, so run it like a normal python script (or mayby i have done something wong)
+
+now, error time, it will say it misses some packages, just install them, and it will run (still only from a file)
+
+conda commands:
+conda create -n tftest python=3.5
+activate tftest
+pip install tensorflow
+pip install git+https://github.com/tflearn/tflearn.git
+conda install h5py scipy
+
+it will still say ""curses is not supported on this machine"" but it runs anyway
+
+hope it helps",Plz make a video on anomaly detection using some time series data. I would be very thankful to you.,"Hi Siraj, actually I am doing a twitter sentiments analysis project using deep learning. Will u please tell me how to preprocess and provide results for tweets which are stored in a text file format?",Siraj just love it. You are awesome. Please let me know if we have 5 categories rather than positive or negative then what changes should be made?,Great video this one! This one really explain things a lot better than the 5 mins versions in the earlier videos,"Always wanted to train an RNN/LSTM for sentiment analysis, finally sat down and did it :). I didn't think of it earlier but 11 classes for outputs makes it quite hard to achieve high accuracies :P.
+Here is my submission, https://github.com/erilyth/DeepLearning-SirajologyChallenges/tree/master/Sentiment_Analysis",great video!  plenty of things to learn from your teaching skills,You are just way too amazing!! If I were a neural net I would have learnt sentiment analysis a long time a go because learning from here is so fun!,You Rock !!!!!!!!,"Hi Siraj, great work. especially like the way you express different things.","Hey Siraj! Here's my response to your Coding Challenge:
+
+https://github.com/jovianlin/siraj-intro-to-DL-03/blob/master/Siraj%2003%20Challenge.ipynb",lol man you just literally made me a project for my natural language processing class on my university,Sane here.  I would have liked to have seen the results.,I never heard of waldeinsamkeit :D (I'm German ),"Testing running the awi in jupyter. Great stuff! Is there a way to import workbooks from github? I can only import single files that I have downloaded, I must be missing something? Does know how to do this an easier way?","When we've merged out consciousness with machines, I bet the 7 layer dip of computation would be delicious.","I like your random rap moments, they're pretty good. Keep it up and Def Jam or Sony might sign you.","Never knew about TFLearn !! Such a wonderful library. Thank you, Siraj!",It looks like Keras is going to be the 'official' high-level wrapper on top of tensorflow. Are you going to give it some air time?:),once again another awesome vid!,"Hello Siraj and guys.
+Does anyone tested the Jie Xun's code (https://github.com/jiexunsee/Neural-Network-with-Python)?
+I'm trying to implement the 3-layer but I'm getting different results.
+All the best,",That rap tho was fire! :D,It's quite impressive how you make these complex ideas seem so easy....much thanks for doing this Siraj!,thank you for video about tensorflow example,"Great video again. Wanted to try Torch a while ago but didn't fancy Lua.  Now PyTorch solves everything. Can you explain what it means by ""dynamic computational graphs"" which is promoted on the website of PyTorch? Many thanks.",waldeinsamkeitsmeditation = zen.,"This video is so good. I hate it.
+_wondering what result the analysis will show_ ;)",I really appreciate these videos. Thank you!,Any direct link to the dataset for the challenge?,"I'm rappin siraj and I'm here to say
+I'll help you write python in a special way",The raps make these so much better. I never thought I would say this.,"laughing my ass off at your stuff while learning stuff
+nice.",Why don't you use Keras to teach Deep Learning ? It will replace Tflearn soon since it will be integrated to Tensorflow and I think it is pretty good for teaching purposes.
